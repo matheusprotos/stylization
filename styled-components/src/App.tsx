@@ -1,5 +1,11 @@
+import { Container, Button } from "./styles";
+
 function App() {
-  return <></>;
+  return (
+    <Container>
+      <Button>Styled Components</Button>
+    </Container>
+  );
 }
 
 export default App;
